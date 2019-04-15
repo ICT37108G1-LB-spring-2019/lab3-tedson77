@@ -1,0 +1,16 @@
+<table border="1">
+  <thead>
+    <tr>
+      <td>სახელი</td>
+      <td>გვარი</td>
+      <td>პირადი ნომერი</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let x of x">
+      <td>{{ x.name }}</td>
+      <td>{{ x.surname }}</td>
+      <td>{{ x.personalNumber }}</td>
+    </tr>
+  </tbody>
+</table>
